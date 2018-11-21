@@ -1,0 +1,7 @@
+export const ADD_ERROR = 'ADD_ERROR';
+export const REMOVE_ERROR = 'REMOVE_ERROR';
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const LOAD_TENANTS = "LOAD_TENANTS";
+export const REMOVE_TENANT = "REMOVE_TENANT";
+export const EDIT_TENANT = "EDIT_TENANT";
+export const CHANGE_SEARCH_FIELD = "CHANGE_SEARCH_FIELD";
