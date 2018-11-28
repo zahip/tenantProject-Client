@@ -16,7 +16,7 @@ export default class Authform extends Component {
         })
     }
 
-    handleSubmit = async (e) => {
+    handleSubmit = e => {
         e.preventDefault();
         const authType = this.props.signUp ? 'signup' : 'login';
         this.props.onAuth(authType, this.state).then(() => {
